@@ -1,17 +1,12 @@
-.fredoka-<uniquifier> {
-  font-family: "Fredoka", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 
 html{
   width: 100%;
   height: 100%;
   background: linear-gradient(325deg, #6f00fc 0%, #fc7900 70%, #fcc700 100%);
-  font-family: Fredoka;
+  font-family: "Fredoka", sans-serif;
 }
 
 .game{
